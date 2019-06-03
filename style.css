@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header{
+  background-color:  rgb(18, 44, 122);
+  height: 500px;
+  width: 100%;
+
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid white;
+  height: 100%;
+
+}
+
+/* classi appoggio  */
+
+.tb{
+  padding: 20px 0px;
+}
+
+
+
+.nav_left, .nav_right{
+  height: 15%;
+  width: 50%;
+  border: 1px solid white;
+  float: left;
+}
+/*SECTION 2 SCUOLE  */
+
+.scuole{
+  background-color: orange;
+  width: 100%;
+}
+
+
+
+.trecol{
+  width: 100%;
+  background-color: red;
+  height: 500px;
+}
+.colonna, .colonna2, .colonna3{
+  float: left;
+  width: 30%;
+  height: 500px;
+  /* border: 1px solid black; */
+}
+.colonna2{
+  margin: 0% 5%;
+}
+
+
+/* FOOTER */
+footer{
+  background-color: pink;
+  height: 200px;
+}
