@@ -58,7 +58,7 @@ header h1{
 
 /* COLONNE */
 
-.trecol, .piano{
+.trecol, .piano, .one, .realenglish{
   width: 100%;
   height: 500px;
 }
@@ -83,7 +83,7 @@ header h1{
 
 /*SEZIONE PIANO  */
 
-.cright, .cleft{
+.blocco2, .blocco1{
   width: 50%;
   height: 100%;
   background-color: green;
@@ -91,6 +91,10 @@ header h1{
   border: 1px solid black;
 }
 
+.one .blocco2, .one .blocco1,
+.realenglish .blocco1, .realenglish .blocco2{
+  background-color: white;
+}
 
 
 
